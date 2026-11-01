@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: video-to-srt
+    runtime: docker
+    plan: starter
+    healthCheckPath: /
